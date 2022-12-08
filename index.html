@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Converter App</title>
+        <link rel="stylesheet" href="app.css">
+        <script defer src="app.js"></script>
+    </head>
+    <body>
+    <div id="veryouter">
+        <div id="outer">
+            <div id="inner1">
+                <div>
+                    <select id="first"> 
+                        <option value="decimal">Decimal</option>
+                        <option value="binary">Binary</option>
+                        <option value="octal">Octal</option>
+                        <option value="hexadecimal">Hexadecimal</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="second">
+                        
+                        <option value="binary">Binary</option>
+                        <option value="octal">Octal</option>
+                        <option value="hexadecimal">Hexadecimal</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="inner2">
+                <div>
+                    <input type="number" id="input1">
+                </div>
+                <div>
+                    <input type="text" id="input2" disabled>
+                </div>
+            </div>
+
+
+            <div id="inner3">
+                <div>
+                    <button id="convert">Convert</button>
+                </div>
+                <div>
+                    <button id="swap">Swap</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
